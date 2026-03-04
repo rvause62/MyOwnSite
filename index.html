@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#060910">
+  <meta name="description" content="MyOwn.Money — Sovereign personal banking. Your keys, your data, your money.">
+  <title>MyOwn.Money</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%233b82f6'/><text x='50' y='68' font-size='44' font-weight='700' text-anchor='middle' fill='white'>M</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="logo">
+        <div class="logo-mark">M</div>
+        <span class="logo-text">MyOwn<span class="logo-dot">.Money</span></span>
+      </div>
+    </header>
+
+    <main class="hero">
+      <h1 class="hero-title">
+        Your keys.<br>
+        Your data.<br>
+        <span class="hero-accent">Your money.</span>
+      </h1>
+      <p class="hero-sub">
+        Sovereign personal banking — integrated HD wallets, encrypted keystore,
+        and full financial visibility. All running on hardware you control.
+      </p>
+      <div class="hero-tags">
+        <span class="tag">Bitcoin</span>
+        <span class="tag">Ethereum</span>
+        <span class="tag">Solana</span>
+        <span class="tag">DeFi</span>
+        <span class="tag">Self-Hosted</span>
+      </div>
+      <div class="hero-cta">
+        <a href="https://github.com/rvause62/myown-money" class="btn btn-primary">GitHub</a>
+      </div>
+      <p class="hero-status">Coming soon — actively in development</p>
+    </main>
+
+    <section class="features">
+      <div class="feature">
+        <div class="feature-icon">&#x1f511;</div>
+        <h3>Self-Custody Wallets</h3>
+        <p>BIP-39 seed generation with BIP-44 multi-chain derivation. Keys never leave your machine.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1f512;</div>
+        <h3>Encrypted Keystore</h3>
+        <p>Argon2id + AES-256-GCM via libsodium. Decrypted only at sign time, wiped immediately after.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1f4ca;</div>
+        <h3>Full Financial View</h3>
+        <p>Track bank accounts, brokerages, cards, and crypto wallets in one place with transaction search.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x26d3;</div>
+        <h3>Multi-Chain</h3>
+        <p>Bitcoin, Ethereum, Solana, and EVM L2s. ERC-20 tokens are config — add any in seconds.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1f3e0;</div>
+        <h3>Runs On Your Hardware</h3>
+        <p>Single C binary — wallet, server, and database in one process. No cloud, no third parties.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1f4b1;</div>
+        <h3>DeFi Built In</h3>
+        <p>Token swaps via 1inch, lending via Aave v3 — directly from your self-custody wallets.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2026 MyOwn.Money</p>
+    </footer>
+  </div>
+</body>
+</html>
