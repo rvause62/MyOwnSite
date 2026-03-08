@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#060910">
-  <meta name="description" content="MyOwn.Money — Sovereign personal banking. Your keys, your data, your money.">
-  <title>MyOwn.Money</title>
+  <meta name="description" content="MyOwn.Money — Crypto-native personal financial OS. No bank, no broker, no exchange. Your keys, your paycheck, your money.">
+  <title>MyOwn.Money — Your Financial OS</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%233b82f6'/><text x='50' y='68' font-size='44' font-weight='700' text-anchor='middle' fill='white'>M</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,58 +23,195 @@
 
     <main class="hero">
       <h1 class="hero-title">
-        Your keys.<br>
-        Your data.<br>
-        <span class="hero-accent">Your money.</span>
+        No bank.<br>
+        No broker.<br>
+        <span class="hero-accent">No permission needed.</span>
       </h1>
       <p class="hero-sub">
-        Sovereign personal banking — integrated HD wallets, encrypted keystore,
-        and full financial visibility. All running on hardware you control.
+        A self-hosted personal financial OS. Your paycheck arrives as USDC,
+        lives in your own wallet, earns DeFi yield, and spends through a
+        Mastercard — all from one C binary on hardware you control.
       </p>
       <div class="hero-tags">
-        <span class="tag">Bitcoin</span>
-        <span class="tag">Ethereum</span>
-        <span class="tag">Solana</span>
-        <span class="tag">DeFi</span>
+        <span class="tag">Zero Bank Accounts</span>
+        <span class="tag">Self-Custody</span>
         <span class="tag">Self-Hosted</span>
+        <span class="tag">DeFi</span>
+        <span class="tag">Multi-Chain</span>
       </div>
       <div class="hero-cta">
-        <a href="https://github.com/rvause62/MyOwn" class="btn btn-primary">GitHub</a>
+        <a href="#how" class="btn btn-primary">How It Works</a>
+        <a href="https://github.com/rvause62/MyOwn" class="btn btn-ghost">GitHub</a>
       </div>
-      <p class="hero-status">Coming soon — actively in development</p>
+      <p class="hero-status">In active development — live testing with real money underway</p>
     </main>
 
+    <section class="flow" id="how">
+      <h2 class="section-title">How money flows</h2>
+      <div class="flow-steps">
+        <div class="flow-step">
+          <div class="flow-num">1</div>
+          <h3>Get paid</h3>
+          <p>Bitwage converts your employer's direct deposit to USDC and sends it straight to your wallet on Base or Solana.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="flow-num">2</div>
+          <h3>Hold &amp; grow</h3>
+          <p>USDC sits in your self-custody wallet. Earn yield on Aave. Swap tokens on Uniswap. Set limit orders. Your keys, your rules.</p>
+        </div>
+        <div class="flow-arrow">&rarr;</div>
+        <div class="flow-step">
+          <div class="flow-num">3</div>
+          <h3>Spend</h3>
+          <p>MetaMask Card — a physical Mastercard that draws from your wallet at point of sale. Accepted everywhere. No conversion step.</p>
+        </div>
+      </div>
+    </section>
+
     <section class="features">
-      <div class="feature">
-        <div class="feature-icon">&#x1f511;</div>
-        <h3>Self-Custody Wallets</h3>
-        <p>BIP-39 seed generation with BIP-44 multi-chain derivation. Keys never leave your machine.</p>
+      <h2 class="section-title">What's inside</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="feature-icon">&#x1f511;</div>
+          <h3>Self-Custody Wallets</h3>
+          <p>BIP-39 seed, BIP-44 derivation. Bitcoin, Ethereum, Solana, and EVM L2s. Keys encrypted with Argon2id + AES-256-GCM — decrypted only at sign time, wiped immediately after.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f4b1;</div>
+          <h3>DeFi Trading</h3>
+          <p>Swap any token on Uniswap v3. Supply and borrow on Aave v3. Cross-chain swaps via THORChain. All on-chain, no API keys, no middleman.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f4b3;</div>
+          <h3>Spend Anywhere</h3>
+          <p>MetaMask Card — Mastercard debit funded by your wallet. 0% fee on USDC. Works at 150M+ merchants, Apple Pay, Google Pay, ATMs.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f4c8;</div>
+          <h3>Market Cockpit</h3>
+          <p>Live prices from Chainlink oracles. Canvas charts with indicators. Watchlists, portfolio overlay, and one-click quick trade — all custom-drawn, no charting library.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f4cb;</div>
+          <h3>Tax Engine</h3>
+          <p>Local tax computation — FIFO lot tracking, cost basis, wash sale detection, IRS Form 8949 export. Your data never leaves your machine.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f916;</div>
+          <h3>Agent Trading</h3>
+          <p>API tokens for automated bots. TradeAgent (AI-driven) connects via bearer token — MyOwn handles signing. Full audit trail, instant kill switch.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f3af;</div>
+          <h3>Limit Orders</h3>
+          <p>Set a target price. MyOwn watches the market and executes the swap when it hits. Funds stay in your wallet until the moment of execution.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f6e1;</div>
+          <h3>Inheritance</h3>
+          <p>Shamir Secret Sharing — split your seed into N shares requiring K to reconstruct. Distribute to trusted people. Cryptographic dead man's switch.</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x26d3;</div>
+          <h3>Multi-Chain</h3>
+          <p>Ethereum, Arbitrum, Base, Linea, Bitcoin, Solana. All from one seed. L2 gas under a penny. ERC-20 tokens are config — add any in seconds.</p>
+        </div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">&#x1f512;</div>
-        <h3>Encrypted Keystore</h3>
-        <p>Argon2id + AES-256-GCM via libsodium. Decrypted only at sign time, wiped immediately after.</p>
+    </section>
+
+    <section class="stack">
+      <h2 class="section-title">The stack</h2>
+      <p class="stack-sub">Everything you need. Nothing you don't.</p>
+      <div class="stack-grid">
+        <div class="stack-item">
+          <div class="stack-label">Income</div>
+          <div class="stack-value">Bitwage</div>
+          <div class="stack-note">Payroll &rarr; USDC to your wallet</div>
+        </div>
+        <div class="stack-item">
+          <div class="stack-label">Custody</div>
+          <div class="stack-value">Your Keys</div>
+          <div class="stack-note">HD wallets, encrypted locally</div>
+        </div>
+        <div class="stack-item">
+          <div class="stack-label">Yield</div>
+          <div class="stack-value">Aave v3</div>
+          <div class="stack-note">Supply USDC, earn interest</div>
+        </div>
+        <div class="stack-item">
+          <div class="stack-label">Trading</div>
+          <div class="stack-value">Uniswap v3</div>
+          <div class="stack-note">Swap any ERC-20 on-chain</div>
+        </div>
+        <div class="stack-item">
+          <div class="stack-label">Cross-chain</div>
+          <div class="stack-value">THORChain</div>
+          <div class="stack-note">ETH &harr; native BTC</div>
+        </div>
+        <div class="stack-item">
+          <div class="stack-label">Spending</div>
+          <div class="stack-value">MetaMask Card</div>
+          <div class="stack-note">Mastercard, worldwide</div>
+        </div>
+        <div class="stack-item">
+          <div class="stack-label">Taxes</div>
+          <div class="stack-value">Built-in</div>
+          <div class="stack-note">8949 export, lot tracking</div>
+        </div>
+        <div class="stack-item">
+          <div class="stack-label">Equities</div>
+          <div class="stack-value">IBKR (optional)</div>
+          <div class="stack-note">Stocks, options, futures</div>
+        </div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">&#x1f4ca;</div>
-        <h3>Full Financial View</h3>
-        <p>Track bank accounts, brokerages, cards, and crypto wallets in one place with transaction search.</p>
+    </section>
+
+    <section class="tech">
+      <h2 class="section-title">Built different</h2>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <span class="tech-key">Language</span>
+          <span class="tech-val">C11</span>
+        </div>
+        <div class="tech-item">
+          <span class="tech-key">Server</span>
+          <span class="tech-val">Mongoose (vendored)</span>
+        </div>
+        <div class="tech-item">
+          <span class="tech-key">Database</span>
+          <span class="tech-val">SQLite (vendored)</span>
+        </div>
+        <div class="tech-item">
+          <span class="tech-key">Signing</span>
+          <span class="tech-val">libsecp256k1 + libsodium</span>
+        </div>
+        <div class="tech-item">
+          <span class="tech-key">Frontend</span>
+          <span class="tech-val">Vanilla HTML/CSS/JS PWA</span>
+        </div>
+        <div class="tech-item">
+          <span class="tech-key">Binary size</span>
+          <span class="tech-val">Single executable</span>
+        </div>
+        <div class="tech-item">
+          <span class="tech-key">Cloud</span>
+          <span class="tech-val">None</span>
+        </div>
+        <div class="tech-item">
+          <span class="tech-key">Runs on</span>
+          <span class="tech-val">Any Linux box / Raspberry Pi</span>
+        </div>
       </div>
-      <div class="feature">
-        <div class="feature-icon">&#x26d3;</div>
-        <h3>Multi-Chain</h3>
-        <p>Bitcoin, Ethereum, Solana, and EVM L2s. ERC-20 tokens are config — add any in seconds.</p>
+    </section>
+
+    <section class="closing">
+      <h2 class="closing-title">Replace your bank with a binary.</h2>
+      <p class="closing-sub">One-time purchase. No subscription. No custody. No cloud. You own it.</p>
+      <div class="hero-cta">
+        <a href="https://github.com/rvause62/MyOwn" class="btn btn-primary">View on GitHub</a>
       </div>
-      <div class="feature">
-        <div class="feature-icon">&#x1f3e0;</div>
-        <h3>Runs On Your Hardware</h3>
-        <p>Single C binary — wallet, server, and database in one process. No cloud, no third parties.</p>
-      </div>
-      <div class="feature">
-        <div class="feature-icon">&#x1f4b1;</div>
-        <h3>DeFi Built In</h3>
-        <p>Token swaps via 1inch, lending via Aave v3 — directly from your self-custody wallets.</p>
-      </div>
+      <p class="hero-status">Pricing announced after live testing is complete</p>
     </section>
 
     <footer class="footer">
