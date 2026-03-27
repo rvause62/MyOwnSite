@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "xAI Grok Reasoning",
+    "provider_type": "xai",
+    "api_url": "https://api.x.ai/v1/chat/completions",
+    "model": "grok-4.20-0309-reasoning",
+    "config_key": "xai_api_key",
+    "supports_tools": 1
+  },
+  {
+    "id": 2,
+    "name": "xAI Grok Fast Reasoning",
+    "provider_type": "xai",
+    "api_url": "https://api.x.ai/v1/chat/completions",
+    "model": "grok-4-1-fast-reasoning",
+    "config_key": "xai_api_key",
+    "supports_tools": 1
+  },
+  {
+    "id": 3,
+    "name": "xAI Grok Fast",
+    "provider_type": "xai",
+    "api_url": "https://api.x.ai/v1/chat/completions",
+    "model": "grok-4-1-fast-non-reasoning",
+    "config_key": "xai_api_key",
+    "supports_tools": 1
+  }
+]
