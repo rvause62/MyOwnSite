@@ -6,7 +6,8 @@
     "api_url": "https://api.x.ai/v1/chat/completions",
     "model": "grok-4.20-0309-reasoning",
     "config_key": "xai_api_key",
-    "supports_tools": 1
+    "supports_tools": 1,
+    "timeout": 120
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "api_url": "https://api.x.ai/v1/chat/completions",
     "model": "grok-4-1-fast-reasoning",
     "config_key": "xai_api_key",
-    "supports_tools": 1
+    "supports_tools": 1,
+    "timeout": 60
   },
   {
     "id": 3,
@@ -24,6 +26,7 @@
     "api_url": "https://api.x.ai/v1/chat/completions",
     "model": "grok-4-1-fast-non-reasoning",
     "config_key": "xai_api_key",
-    "supports_tools": 1
+    "supports_tools": 1,
+    "timeout": 30
   }
 ]
