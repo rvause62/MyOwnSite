@@ -15,6 +15,17 @@
   {"protocol":"token","chain_id":42161,"role":"WBTC","value":"0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f","meta":"8"},
   {"protocol":"token","chain_id":8453,"role":"USDbC","value":"0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA","meta":"6"},
   {"protocol":"token","chain_id":42161,"role":"LINK","value":"0xf97f4df75117a78c1A5a0DBb814Af92458539FB4","meta":"18"},
+  {"protocol":"token","chain_id":137,"role":"WMATIC","value":"0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270","meta":"18"},
+  {"protocol":"token","chain_id":137,"role":"USDC","value":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","meta":"6"},
+  {"protocol":"token","chain_id":137,"role":"USDT","value":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","meta":"6"},
+  {"protocol":"token","chain_id":137,"role":"DAI","value":"0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063","meta":"18"},
+  {"protocol":"token","chain_id":137,"role":"WETH","value":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","meta":"18"},
+  {"protocol":"token","chain_id":137,"role":"WBTC","value":"0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6","meta":"8"},
+  {"protocol":"token","chain_id":10,"role":"WETH","value":"0x4200000000000000000000000000000000000006","meta":"18"},
+  {"protocol":"token","chain_id":10,"role":"USDC","value":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","meta":"6"},
+  {"protocol":"token","chain_id":10,"role":"USDT","value":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","meta":"6"},
+  {"protocol":"token","chain_id":10,"role":"DAI","value":"0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1","meta":"18"},
+  {"protocol":"token","chain_id":10,"role":"WBTC","value":"0x68f180fcCe6836688e9084f035309E29Bf0A2095","meta":"8"},
 
   {"protocol":"uniswap_v3","chain_id":1,"role":"quoter","value":"0x61fFE014bA17989E743c5F6cB21bF9697530B21e","meta":""},
   {"protocol":"uniswap_v3","chain_id":42161,"role":"quoter","value":"0x61fFE014bA17989E743c5F6cB21bF9697530B21e","meta":""},
@@ -37,6 +48,20 @@
   {"protocol":"sushiswap_v2","chain_id":42161,"role":"router","value":"0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506","meta":""},
   {"protocol":"sushiswap_v2","chain_id":8453,"role":"router","value":"0x6BDED42c6DA8FBf0d2bA55B2fa120C5e0c8D7891","meta":""},
 
+  {"protocol":"camelot","chain_id":42161,"role":"quoter","value":"0x82031783222703a86fe79aa3b32b58ab92510306","meta":""},
+  {"protocol":"camelot","chain_id":42161,"role":"router","value":"0x1F721E2E82F6676FCE4EA07A5958CF098D339E18","meta":""},
+
+  {"protocol":"aerodrome","chain_id":8453,"role":"router","value":"0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43","meta":""},
+
+  {"protocol":"uniswap_v3","chain_id":137,"role":"quoter","value":"0x61fFE014bA17989E743c5F6cB21bF9697530B21e","meta":""},
+  {"protocol":"uniswap_v3","chain_id":137,"role":"router","value":"0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45","meta":""},
+  {"protocol":"uniswap_v3","chain_id":137,"role":"nft_manager","value":"0xC36442b4a4522E871399CD717aBDD847Ab11FE88","meta":""},
+  {"protocol":"uniswap_v3","chain_id":10,"role":"quoter","value":"0x61fFE014bA17989E743c5F6cB21bF9697530B21e","meta":""},
+  {"protocol":"uniswap_v3","chain_id":10,"role":"router","value":"0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45","meta":""},
+  {"protocol":"uniswap_v3","chain_id":10,"role":"nft_manager","value":"0xC36442b4a4522E871399CD717aBDD847Ab11FE88","meta":""},
+
+  {"protocol":"velodrome","chain_id":10,"role":"router","value":"0xa062aE8A9c5e11aaA026fc2670B0D65cCc8B2858","meta":""},
+
   {"protocol":"balancer","chain_id":1,"role":"vault","value":"0xBA12222222228d8Ba445958a75a0704d566BF2C8","meta":""},
   {"protocol":"balancer","chain_id":42161,"role":"vault","value":"0xBA12222222228d8Ba445958a75a0704d566BF2C8","meta":""},
   {"protocol":"balancer","chain_id":8453,"role":"vault","value":"0xBA12222222228d8Ba445958a75a0704d566BF2C8","meta":""},
@@ -45,11 +70,6 @@
   {"protocol":"balancer","chain_id":1,"role":"pool_usdc_usdt","value":"0x79c58f70905f734641735bc61e45c19dd9ad60bc0000000000000000000004e7","meta":""},
   {"protocol":"balancer","chain_id":42161,"role":"pool_weth_usdc","value":"0x079b46cae25871c5661f89fdf8bc1345383fbc820002000000000000000005ee","meta":""},
 
-  {"protocol":"camelot","chain_id":42161,"role":"quoter","value":"0x82031783222703a86fe79aa3b32b58ab92510306","meta":""},
-  {"protocol":"camelot","chain_id":42161,"role":"router","value":"0x1F721E2E82F6676FCE4EA07A5958CF098D339E18","meta":""},
-
-  {"protocol":"aerodrome","chain_id":8453,"role":"router","value":"0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43","meta":""},
-
   {"protocol":"curve","chain_id":1,"role":"3pool","value":"0xbEbc44782C7dB0a1A60Cb6fe97d0b483032FF1C7","meta":""},
   {"protocol":"curve","chain_id":42161,"role":"2pool","value":"0x7f90122BF0700F9E7e1F688fe926940E8839F353","meta":""},
   {"protocol":"curve","chain_id":8453,"role":"2pool","value":"0xf6C5F01C7F3148891ad0e19DF78743D31E390D1f","meta":""},
@@ -57,10 +77,14 @@
   {"protocol":"across","chain_id":1,"role":"spoke_pool","value":"0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5","meta":""},
   {"protocol":"across","chain_id":42161,"role":"spoke_pool","value":"0xe35e9842fceaCA96570B734083f4a58e8F7C5f2A","meta":""},
   {"protocol":"across","chain_id":8453,"role":"spoke_pool","value":"0x09aea4b2242abC8bb4BB78D537A67a245A7bEC64","meta":""},
+  {"protocol":"across","chain_id":137,"role":"spoke_pool","value":"0x9295ee1d8C5b022Be115A2AD3c30C72E34e7F096","meta":""},
+  {"protocol":"across","chain_id":10,"role":"spoke_pool","value":"0x6f26Bf09B1C792e3228e5467807a900A503c0281","meta":""},
 
   {"protocol":"aave_v3","chain_id":1,"role":"pool","value":"0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2","meta":""},
   {"protocol":"aave_v3","chain_id":42161,"role":"pool","value":"0x794a61358D6845594F94dc1DB02A252b5b4814aD","meta":""},
   {"protocol":"aave_v3","chain_id":8453,"role":"pool","value":"0xA238Dd80C259a72e81d7e4664a9801593F98d1c5","meta":""},
+  {"protocol":"aave_v3","chain_id":137,"role":"pool","value":"0x794a61358D6845594F94dc1DB02A252b5b4814aD","meta":""},
+  {"protocol":"aave_v3","chain_id":10,"role":"pool","value":"0x794a61358D6845594F94dc1DB02A252b5b4814aD","meta":""},
 
   {"protocol":"gmx","chain_id":42161,"role":"exchange_router","value":"0x602b805EedddBbD9ddff44A7dcBD46cb07849685","meta":""},
   {"protocol":"gmx","chain_id":42161,"role":"order_vault","value":"0x31eF83a530Fde1B38EE9A18093A333D8Bbbc40D5","meta":""},
@@ -68,6 +92,24 @@
   {"protocol":"gmx","chain_id":42161,"role":"datastore","value":"0xFD70de6b91282D8017aA4E741e9Ae325CAb992d8","meta":""},
   {"protocol":"gmx","chain_id":42161,"role":"market_eth_usd","value":"0x70d95587d40A2caf56bd97485aB3Eec10Bee6336","meta":""},
   {"protocol":"gmx","chain_id":42161,"role":"market_btc_usd","value":"0x47c031236e19d024b42f8AE6780E44A573170703","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_sol_usd","value":"0xf22CFFA7B4174554FF9dBf7B5A8c01FaaDceA722","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_xrp_usd","value":"0x0CCB4fAa6f1F1B30911619f1184082aB4E25813c","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_link_usd","value":"0x7f1fa204bb700853D36994DA19F830b6Ad18455C","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_avax_usd","value":"0x7BbBf946883a5701350007320F525c5379B8178A","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_dot_usd","value":"0x7B2D09fca2395713dcc2F67323e4876F27b9ecB2","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_aave_usd","value":"0x77B2eC357b56c7d05a87971dB0188DBb0C7836a5","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_arb_usd","value":"0xC25cEf6061Cf5dE5eb761b50E4743c1F5D7E5407","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_near_usd","value":"0x63Dc80EE90F26363B3FCD609007CC9e14c8991BE","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_fil_usd","value":"0x262B5203f0fe00D9fe86ffecE01D0f54fC116180","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_apt_usd","value":"0x66A69c8eb98A7efE22A22611d1967dfec786a708","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_sui_usd","value":"0x6Ecf2133E2C9751cAAdCb6958b9654baE198a797","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_algo_usd","value":"0x3B7f4e4Cf2fa43df013d2B32673e6A01d29ab2Ac","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_crv_usd","value":"0x0e46941F9bfF8d0784BFfa3d0D7883CDb82D7aE7","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_atom_usd","value":"0x248C35760068cE009a13076D573ed3497A47bCD4","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_ltc_usd","value":"0xD9535bB5f58A1a75032416F2dFe7880C30575a41","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_hbar_usd","value":"0x9f0849FB830679829d1FB759b11236D375D15C78","meta":""},
+  {"protocol":"gmx","chain_id":42161,"role":"market_doge_usd","value":"0x6853EA96FF216fAb11D2d930CE3C508556A4bdc4","meta":""},
+  {"protocol":"gmx","chain_id":0,"role":"api_url","value":"https://arbitrum-api.gmxinfra.io","meta":""},
 
   {"protocol":"premia","chain_id":42161,"role":"pool_weth","value":"0xE5DbC4EDf467B609A063c7ea7fAb976C6b9BAa1a","meta":""},
   {"protocol":"premia","chain_id":42161,"role":"pool_wbtc","value":"0xb5fE3bc2eF4c34cC233922dfF2Fcb1B1BF89A38E","meta":""},
@@ -76,8 +118,33 @@
 
   {"protocol":"morpho","chain_id":1,"role":"blue","value":"0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb","meta":""},
   {"protocol":"morpho","chain_id":1,"role":"vault_factory","value":"0xA1D94F746dEfa1928926b84fB2596c06926C0405","meta":""},
+
   {"protocol":"pendle","chain_id":0,"role":"router","value":"0x888888888889758F76e7103c6CbF23ABbF58F946","meta":""},
 
   {"protocol":"thorchain","chain_id":0,"role":"thornode_url","value":"https://thornode.ninerealms.com","meta":""},
-  {"protocol":"thorchain","chain_id":0,"role":"midgard_url","value":"https://midgard.ninerealms.com/v2","meta":""}
+  {"protocol":"thorchain","chain_id":0,"role":"midgard_url","value":"https://midgard.ninerealms.com/v2","meta":""},
+  {"protocol":"thorchain","chain_id":0,"role":"ethereum","value":"ETH.ETH","meta":"18"},
+  {"protocol":"thorchain","chain_id":0,"role":"bitcoin","value":"BTC.BTC","meta":"8"},
+  {"protocol":"thorchain","chain_id":0,"role":"xrp","value":"XRP.XRP","meta":"6"},
+
+  {"protocol":"backed","chain_id":0,"role":"api_url","value":"https://api.backed.fi/api/v1","meta":""},
+  {"protocol":"backed","chain_id":0,"role":"deployer","value":"0x5f7a4c11bde4f218f0025ef444c369d838ffa2ad","meta":"Arbitrum"},
+  {"protocol":"backed","chain_id":42161,"role":"sweep_network","value":"arbitrum","meta":"Market Flow"},
+
+  {"protocol":"binance","chain_id":0,"role":"api_url","value":"https://api.binance.us/api/v3","meta":""},
+  {"protocol":"binance","chain_id":0,"role":"ws_url","value":"wss://stream.binance.us:9443/ws","meta":""},
+
+  {"protocol":"coingecko","chain_id":0,"role":"api_url","value":"https://api.coingecko.com/api/v3","meta":""},
+
+  {"protocol":"across","chain_id":0,"role":"api_url","value":"https://app.across.to","meta":""},
+
+  {"protocol":"pendle","chain_id":0,"role":"api_url","value":"https://api-v2.pendle.finance","meta":""},
+
+  {"protocol":"fred","chain_id":0,"role":"api_url","value":"https://api.stlouisfed.org","meta":""},
+
+  {"protocol":"zilmoney","chain_id":0,"role":"api_url","value":"https://app.onlinecheckwriter.com/api/v3","meta":""},
+
+  {"protocol":"etherscan","chain_id":0,"role":"api_url","value":"https://api.etherscan.io","meta":""},
+
+  {"protocol":"xstocks","chain_id":0,"role":"api_url","value":"https://api.xstocks.fi","meta":""}
 ]
